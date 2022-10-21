@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif !important;
+    width: 100%;
+    height: 100vh;
+    transition: .6s ease;
+
+    background-color: #4880a5 !important;
+    background-image: url("./img/bombA-dust2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+.bolinha{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: red;
+    position: absolute;
+}
